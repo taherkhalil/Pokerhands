@@ -1,5 +1,6 @@
 package com.taherk.pokerTest;
 
+import com.taherk.poker.PokerHands;
 import org.junit.Test;
 
 /**
@@ -7,9 +8,17 @@ import org.junit.Test;
  */
 public class PokerHandsTest {
 
-    @Test
-    public void itShouldtake blah
-    fdmelknfknfnle
+    @Test(expected = PokerHands.invalidInput.class)
+    public void itShouldTakeValidInput_FiveValues(){
+        //given
+        PokerHands pk =new PokerHands();
+
+
+        //when
+
+        //then
+
+    }
 
 
 
