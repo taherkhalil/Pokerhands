@@ -9,13 +9,13 @@ import java.util.List;
 /**
  * Created by taherk on 7/22/2016.
  */
-public class PokerHands {
+public class PokerSetUp {
     public List<String> player1;
     public List<String> player2;
     private static final List<String> ranks  = new ArrayList<String>();
     private static final List<String> suits  = new ArrayList<String>();
 
-     PokerHands() {
+     PokerSetUp() {
         player1 = new ArrayList<String>();
         player2 = new ArrayList<String>();
         ranks.add("A");

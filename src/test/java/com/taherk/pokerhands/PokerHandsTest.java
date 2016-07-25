@@ -1,6 +1,7 @@
 package com.taherk.pokerhands;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,9 +12,9 @@ import java.util.List;
  */
 public class PokerHandsTest {
 
-    @Test(expected = PokerHands.InvalidInputNumberException.class)
+    @Test(expected = PokerSetUp.InvalidInputNumberException.class)
     public void itShouldTakeValidInput_FiveValues() {
-        PokerHands pk = new PokerHands();
+        PokerSetUp pk = new PokerSetUp();
         List<String> player1 = new ArrayList<String>();
         List<String> player2 = new ArrayList<String>();
         player1.add("2D");
@@ -30,9 +31,9 @@ public class PokerHandsTest {
         pk.checkSize();
 
     }
-    @Test(expected = PokerHands.InvalidInputTypeException.class)
+    @Test(expected = PokerSetUp.InvalidInputTypeException.class)
     public void itShouldTakeValidInput_Type(){
-        PokerHands pk = new PokerHands();
+        PokerSetUp pk = new PokerSetUp();
         List<String> player1 = new ArrayList<String>();
         List<String> player2 = new ArrayList<String>();
         player1.add("2D");
@@ -50,7 +51,7 @@ public class PokerHandsTest {
     }
     @Test
     public void itShouldCheckDeckAndSelectHand(){
-        PokerHands pk = new PokerHands();
+        PokerSetUp pk = new PokerSetUp();
         List<String> player1 = new ArrayList<String>();
         List<String> player2 = new ArrayList<String>();
         player1.add("JS");
@@ -67,6 +68,8 @@ public class PokerHandsTest {
         player2.add("2H");
         pk.setValuesForPlayer2(player2);
         pk.compare();
+
+        Assert.assertEquals(true,new HandsHandler().fullHouse);
 
 
     }

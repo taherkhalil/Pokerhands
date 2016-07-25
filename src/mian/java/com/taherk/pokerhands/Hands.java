@@ -7,12 +7,7 @@ import java.util.List;
  * Created by taherk on 7/25/2016.
  */
 public class Hands {
-    private boolean fullHouse = false;
-    private boolean threeOfAKind = false;
-    private boolean pair = false;
-    private boolean fourOfAKind = false;
-    private boolean flush = false;
-    private boolean twoOfAKind=false;
+    
 
     public void player1Hand(List<String> player1) {
         for (int i = 0; i < player1.size(); i++) {
@@ -25,13 +20,15 @@ public class Hands {
 
     }
 
-    public void fullHouse(List<String> decks) {
+    public boolean isFullHouse(List<String> decks) {
         int counter = 0;
         List<Integer> temp = new ArrayList<>();
         iterate(counter, decks, temp);
         if (temp.contains(2) && temp.contains(3)) {
-            fullHouse = true;
+            return true;
+
         }
+        return false;
 
     }
 
@@ -90,6 +87,7 @@ public class Hands {
         if (temp.contains(5)) {
             flush = true;
         }
+
     }
     public void twoOfAKind(List<String> decks){
         int counter = 0;
@@ -97,6 +95,14 @@ public class Hands {
         List<Integer> temp = new ArrayList<>();
         List<Integer> temp2 = new ArrayList<>();
         iterate(counter, decks, temp);
+        iterate2(counter2, temp, temp2);
+        if (temp2.contains(4)){
+            twoOfAKind  =true;
+        }
+
+    }
+
+    private void iterate2(int counter2, List<Integer> temp, List<Integer> temp2) {
         for (Integer b:temp)
         {
             for(Integer c:temp){
@@ -105,9 +111,5 @@ public class Hands {
             }
             temp2.add(counter2);
         }
-        if (temp2.contains(4)){
-            twoOfAKind  =true;
-        }
-
     }
 }
