@@ -8,4 +8,6 @@ public enum DeckSuites {
     S,
     D,
     C;
+
 }
+//
