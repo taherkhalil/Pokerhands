@@ -12,10 +12,10 @@ import java.util.List;
 public class PokerSetUp {
     public List<String> player1;
     public List<String> player2;
-    private static final List<String> ranks  = new ArrayList<String>();
-    private static final List<String> suits  = new ArrayList<String>();
+    private static final List<String> ranks = new ArrayList<String>();
+    private static final List<String> suits = new ArrayList<String>();
 
-     PokerSetUp() {
+    PokerSetUp() {
         player1 = new ArrayList<String>();
         player2 = new ArrayList<String>();
         ranks.add("A");
@@ -39,24 +39,32 @@ public class PokerSetUp {
     public void setValuesForPlayer1(List<String> valuesForPlayer1) {
         player1.addAll(valuesForPlayer1);
         System.out.println(player1.toString());
-}
+    }
+
     public void setValuesForPlayer2(List<String> valuesForPlayer2) {
         player2.addAll(valuesForPlayer2);
         System.out.println(player2.toString());
     }
 
-public void checkSize(){
-    if (player1.size() != 5 && player2.size() != 5 )
-        throw new InvalidInputNumberException();
-}
+    public List<String> getPlayer1() {
+        return player1;
+    }
+
+    public List<String> getPlayer2() {
+        return player2;
+    }
+
+    public void checkSize() {
+        if (player1.size() != 5 && player2.size() != 5)
+            throw new InvalidInputNumberException();
+    }
 
     public void testType() {
 
-        for(int i=0;i<=player1.size()-1;i++)
-        {
-            if (! (ranks.contains(player1.get(i).charAt(0))&& suits.contains(player1.get(i).charAt(1) ) )
-                    && !( ranks.contains(player2.get(i).charAt(0))&& suits.contains(player2.get(i).charAt(1) ))
-                    )            {
+        for (int i = 0; i <= player1.size() - 1; i++) {
+            if (!(ranks.contains(player1.get(i).charAt(0)) && suits.contains(player1.get(i).charAt(1)))
+                    && !(ranks.contains(player2.get(i).charAt(0)) && suits.contains(player2.get(i).charAt(1)))
+                    ) {
                 throw new InvalidInputTypeException();
             }
         }
@@ -64,7 +72,7 @@ public void checkSize(){
     }
 
     public void compare() {
-        Hands hand=new Hands();
+        Hands hand = new Hands();
         hand.player1Hand(player1);
         hand.player2Hand(player2);
     }

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b62f58ac-41f1-43b8-840c-094b6944b0bf" name="Default" comment=".">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/HandsHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerHands.java" afterPath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerSetUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="b62f58ac-41f1-43b8-840c-094b6944b0bf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/Hands.java" afterPath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/Hands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/HandsHandler.java" afterPath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/HandsHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerSetUp.java" afterPath="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerSetUp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/taherk/pokerhands/PokerHandsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/taherk/pokerhands/PokerHandsTest.java" />
     </list>
     <ignored path="PokerHands.iws" />
@@ -29,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PokerHandsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PokerHandsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/taherk/pokerhands/PokerHandsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+            <state relative-caret-position="456">
+              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#415#423#0" expanded="true" />
@@ -50,12 +48,15 @@
       <file leaf-file-name="PokerSetUp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerSetUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-389">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="510">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#330#338#0" expanded="true" />
-                <element signature="e#402#410#0" expanded="true" />
+                <element signature="e#329#337#0" expanded="true" />
+                <element signature="e#400#408#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandsHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HandsHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/HandsHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -111,11 +112,11 @@
         <option value="$PROJECT_DIR$/src/mian/java/com/taherk/poker/PokerHands.java" />
         <option value="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/DeckSuites.java" />
         <option value="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerHands.java" />
-        <option value="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerSetUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/taherk/pokerhands/PokerSetUpTest.java" />
         <option value="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/Hands.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/taherk/pokerhands/PokerHandsTest.java" />
+        <option value="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerSetUp.java" />
         <option value="$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/HandsHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/taherk/pokerhands/PokerHandsTest.java" />
       </list>
     </option>
   </component>
@@ -638,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469420665763</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="late night code tweaks">
+      <created>1469479173993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1469479173993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,7 +730,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="try" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="late night code tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="late night code tweaks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -755,8 +764,11 @@
           <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#338#0" expanded="true" />
-            <element signature="e#402#410#0" expanded="true" />
+            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#400#408#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -792,8 +804,11 @@
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#338#0" expanded="true" />
-            <element signature="e#402#410#0" expanded="true" />
+            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#400#408#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -820,8 +835,11 @@
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#338#0" expanded="true" />
-            <element signature="e#402#410#0" expanded="true" />
+            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#400#408#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,8 +866,11 @@
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#338#0" expanded="true" />
-            <element signature="e#402#410#0" expanded="true" />
+            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#400#408#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -859,12 +880,15 @@
     <entry file="file://$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/DeckSuites.java" />
     <entry file="file://$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/PokerSetUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="510">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#338#0" expanded="true" />
-            <element signature="e#402#410#0" expanded="true" />
+            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#400#408#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,10 +901,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/HandsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/taherk/pokerhands/PokerHandsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+        <state relative-caret-position="456">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#415#423#0" expanded="true" />
@@ -890,14 +922,6 @@
             <element signature="e#1553#1561#0" expanded="true" />
             <element signature="e#1609#1617#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mian/java/com/taherk/pokerhands/HandsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>

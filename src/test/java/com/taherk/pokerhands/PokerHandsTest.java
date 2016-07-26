@@ -67,9 +67,12 @@ public class PokerHandsTest {
         player2.add("2S");
         player2.add("2H");
         pk.setValuesForPlayer2(player2);
-        pk.compare();
+        HandsHandler h=new HandsHandler();
+        h.setHandForPlayer1();
 
         Assert.assertEquals(true,new HandsHandler().fullHouse);
+        h.setHandForPlayer2();
+        Assert.assertEquals(true,new HandsHandler().threeOfAKind);
 
 
     }

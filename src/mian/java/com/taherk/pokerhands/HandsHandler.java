@@ -7,16 +7,16 @@ import java.util.List;
  */
 public class HandsHandler {
     public boolean fullHouse = false;
-    private boolean threeOfAKind = false;
-    private boolean pair = false;
-    private boolean fourOfAKind = false;
-    private boolean flush = false;
-    private boolean twoOfAKind = false;
+    public boolean threeOfAKind = false;
+    public boolean pair = false;
+    public boolean fourOfAKind = false;
+    public boolean flush = false;
+    public boolean twoOfAKind = false;
     Hands hand = new Hands();
 
-    public void setHand() {
+    public void setHandForPlayer1() {
 
-        if (hand.isFullHouse())
+        if (hand.isFullHouse(new PokerSetUp().getPlayer1()))
         {
             fullHouse=true;
             setStatus(6);
