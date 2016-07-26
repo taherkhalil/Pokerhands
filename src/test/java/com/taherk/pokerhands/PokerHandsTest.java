@@ -31,8 +31,9 @@ public class PokerHandsTest {
         pk.checkSize();
 
     }
+
     @Test(expected = PokerSetUp.InvalidInputTypeException.class)
-    public void itShouldTakeValidInput_Type(){
+    public void itShouldTakeValidInput_Type() {
         PokerSetUp pk = new PokerSetUp();
         List<String> player1 = new ArrayList<String>();
         List<String> player2 = new ArrayList<String>();
@@ -49,13 +50,14 @@ public class PokerHandsTest {
         pk.setValuesForPlayer2(player2);
         pk.testType();
     }
+
     @Test
-    public void itShouldCheckDeckAndSelectHand(){
+    public void itShouldCheckDeckAndSelectHand() {
         PokerSetUp pk = new PokerSetUp();
         List<String> player1 = new ArrayList<String>();
         List<String> player2 = new ArrayList<String>();
         player1.add("JS");
-        player1.add("JD");
+        player1.add("2D");
         player1.add("2H");
         player1.add("2D");
         player1.add("2S");
@@ -67,15 +69,39 @@ public class PokerHandsTest {
         player2.add("2S");
         player2.add("2H");
         pk.setValuesForPlayer2(player2);
-        HandsHandler h=new HandsHandler();
-        h.setHandForPlayer1();
+        HandsHandler h = new HandsHandler();
+        h.setHandForPlayer1(player1);
 
-        Assert.assertEquals(true,new HandsHandler().fullHouse);
-        h.setHandForPlayer2();
-        Assert.assertEquals(true,new HandsHandler().threeOfAKind);
+        Assert.assertEquals(true, h.fourOfAKind);
+        h.setHandForPlayer2(player2);
+        Assert.assertEquals(true, h.threeOfAKind);
+    }
+    @Test
+    public void itShouldDeclareProperWinner() {
+        PokerSetUp pk = new PokerSetUp();
+        List<String> player1 = new ArrayList<String>();
+        List<String> player2 = new ArrayList<String>();
+        player1.add("JS");
+        player1.add("2D");
+        player1.add("2H");
+        player1.add("2D");
+        player1.add("2S");
+        pk.setValuesForPlayer1(player1);
+
+        player2.add("AD");
+        player2.add("8D");
+        player2.add("2C");
+        player2.add("2S");
+        player2.add("2H");
+        pk.setValuesForPlayer2(player2);
+        HandsHandler h = new HandsHandler();
+        h.setHandForPlayer1(player1);
+        h.setHandForPlayer2(player2);
+        h.declareWinner();
+        Assert.assertEquals(true,h.player1);
+
 
 
     }
-
 
 }

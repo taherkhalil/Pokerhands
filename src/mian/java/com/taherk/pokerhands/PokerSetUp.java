@@ -34,16 +34,17 @@ public class PokerSetUp {
         suits.add("D");
         suits.add("S");
         suits.add("C");
+
     }
 
     public void setValuesForPlayer1(List<String> valuesForPlayer1) {
         player1.addAll(valuesForPlayer1);
-        System.out.println(player1.toString());
+        //System.out.println(player1.toString());
     }
 
     public void setValuesForPlayer2(List<String> valuesForPlayer2) {
         player2.addAll(valuesForPlayer2);
-        System.out.println(player2.toString());
+       // System.out.println(player2.toString());
     }
 
     public List<String> getPlayer1() {
@@ -71,11 +72,7 @@ public class PokerSetUp {
 
     }
 
-    public void compare() {
-        Hands hand = new Hands();
-        hand.player1Hand(player1);
-        hand.player2Hand(player2);
-    }
+
 
 
     public class InvalidInputNumberException extends RuntimeException {
